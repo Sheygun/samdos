@@ -1,0 +1,37 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}.intro-2 {
+    background: url("../img/pexels-photo-258109.jpeg")no-repeat center center;
+    background-size: cover;
+}/*#signup{
+  background: url("../img/05.jpg")no-repeat center center;
+    background-size: cover;
+}*/.resize{
+	height: 400px;
+	width: 450px;
+}.card-resize-sheygun{
+	height: auto;
+}.tope{
+	/*margin: 10px 350px;*/
+}
+@media (max-width: 1000px){
+	.card-resize-sheygun{
+	height: 250px;
+}.tope{
+	/*margin: 0px 0px;*/
+}
+
+}
+@media (max-width: 390px){
+	.resize{
+		height: 250px;
+	}.card-resize-sheygun{
+	height: 170px;
+}.tope{
+	/*margin: 0px 0px;*/
+}
+	
+}
