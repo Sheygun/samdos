@@ -4,7 +4,7 @@ header,
 .view {
   height: 100%;
 }.intro-2 {
-    background: url("../img/pexels-photo-258109.jpeg")no-repeat center center;
+    background: url("../img/pexels-photo-1431324.jpeg")no-repeat center center;
     background-size: cover;
 }/*#signup{
   background: url("../img/05.jpg")no-repeat center center;
@@ -16,7 +16,30 @@ header,
 	height: auto;
 }.tope{
 	/*margin: 10px 350px;*/
+}.img-logo{
+	height: 60px;
+	width: 120px;
+}.market-text{
+	font-size: 20px;
 }
+
+.samdos{
+	font-size: 24px;
+	text-shadow: 0px 0px 2px white;
+}
+.redtext{
+	color: white;
+	font-size: 12px;
+	text-shadow: 0px 0px 2px white;
+}.move-up{
+	/* transform: translate(10px,-20px); */
+}
+
+
+
+
+
+
 @media (max-width: 1000px){
 	.card-resize-sheygun{
 	height: 250px;
@@ -32,6 +55,14 @@ header,
 	height: 170px;
 }.tope{
 	/*margin: 0px 0px;*/
+}.market-text{
+	font-size: 14px;
+}.samdos-name{
+	font-size: 24px;
+}.help{
+	font-size: 16px;
+}.muted{
+	font-size: 12px;
 }
 	
 }
