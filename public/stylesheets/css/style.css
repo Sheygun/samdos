@@ -50,6 +50,9 @@ header,
 	.view {
 	  height: 400px;
 	}
+	/* .card-resize-sheygun{
+		height: 100px;
+	} */
   }
   @media (min-width: 800px) and (max-width: 850px) {
 	html,
@@ -58,6 +61,9 @@ header,
 	.view {
 	  height: 300px;
 	}
+	/* .card-resize-sheygun{
+		height: 100px;
+	} */
   }
   
 
@@ -84,7 +90,7 @@ header,
 
 @media (max-width: 1000px){
 	.card-resize-sheygun{
-	height: 250px;
+	height: auto;
 }.tope{
 	/*margin: 0px 0px;*/
 }.passion-text{
@@ -99,7 +105,7 @@ header,
 	.resize{
 		height: 250px;
 	}.card-resize-sheygun{
-	height: 170px;
+	height: auto;
 }.tope{
 	/*margin: 0px 0px;*/
 }.market-text{
