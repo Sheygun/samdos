@@ -11,10 +11,14 @@ header,
 }/*#signup{
   background: url("../img/05.jpg")no-repeat center center;
     background-size: cover;
-}*/.resize{
+}*/
+
+/* .resize{
 	height: 400px;
 	width: 450px;
-}.card-resize-sheygun{
+} */
+
+.card-resize-sheygun{
 	height: auto;
 }.tope{
 	/*margin: 10px 350px;*/
@@ -22,7 +26,7 @@ header,
 	height: 60px;
 	width: 120px;
 }.market-text{
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .samdos{
@@ -40,15 +44,15 @@ header,
 }.passion-text{
 	font-size: 16px;
 }.get-text{
-	font-size: 18px;
+	font-size: 15px;
 }
 
 @media (max-width: 740px) {
 	html,
 	body,
 	header,
-	.view {
-	  height: 400px;
+	.view-home {
+	  height: 600px;
 	}
 	/* .card-resize-sheygun{
 		height: 100px;
@@ -58,8 +62,8 @@ header,
 	html,
 	body,
 	header,
-	.view {
-	  height: 300px;
+	.view-home {
+	  height: 400px;
 	}
 	/* .card-resize-sheygun{
 		height: 100px;
@@ -102,9 +106,12 @@ header,
 
 }
 @media (max-width: 390px){
-	.resize{
+
+	/* .resize{
 		height: 250px;
-	}.card-resize-sheygun{
+	} */
+	
+	.card-resize-sheygun{
 	height: auto;
 }.tope{
 	/*margin: 0px 0px;*/

@@ -8,6 +8,8 @@ express()
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('pages/index'))
   .get('/home', (req, res) => res.render('pages/index'))
+
+  
   
   .get('/blog1', (req, res) => res.render('pages/blog1'))
   .get('/blog2', (req, res) => res.render('pages/blog2'))
