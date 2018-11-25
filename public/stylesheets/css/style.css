@@ -13,10 +13,12 @@ header,
     background-size: cover;
 }*/
 
-/* .resize{
-	height: 400px;
-	width: 450px;
-} */
+.resize{
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .card-resize-sheygun{
 	height: auto;
