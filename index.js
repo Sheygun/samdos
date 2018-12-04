@@ -17,7 +17,5 @@ express()
   .get('/blog4', (req, res) => res.render('pages/blog4'))
   .get('/blog5', (req, res) => res.render('pages/blog5'))
   .get('/error', (req, res) => res.render('pages/unprocessed'))
-  // .get('/google', (req, res) => res.render('pages/google251ea7ea4521f66f'))
-  // .get('/tope', (req, res) => res.render('pages/index'))
 
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
