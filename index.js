@@ -17,5 +17,7 @@ express()
   .get('/blog4', (req, res) => res.render('pages/blog4'))
   .get('/blog5', (req, res) => res.render('pages/blog5'))
   .get('/error', (req, res) => res.render('pages/unprocessed'))
+  .get('/login', (req, res) => res.render('pages/login'))
+  .get('/signup', (req, res) => res.render('pages/signup'))
 
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
