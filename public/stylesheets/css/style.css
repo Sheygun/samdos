@@ -19,7 +19,9 @@ header,
   -o-background-size: cover;
   background-size: cover;
 }
-
+.advert-image{
+	height: 350px;
+}
 .card-resize-sheygun{
 	height: auto;
 }.tope{
@@ -55,6 +57,9 @@ header,
 	header,
 	.view-home {
 	  height: 600px;
+	}
+	.advert-image{
+		height: 250px;
 	}
 	/* .card-resize-sheygun{
 		height: 100px;
@@ -115,7 +120,12 @@ header,
 	
 	.card-resize-sheygun{
 	height: auto;
-}.tope{
+}
+.advert-image{
+	height: 200px;
+}
+
+.tope{
 	/*margin: 0px 0px;*/
 }.market-text{
 	font-size: 14px;

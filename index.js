@@ -19,5 +19,6 @@ express()
   .get('/error', (req, res) => res.render('pages/unprocessed'))
   .get('/login', (req, res) => res.render('pages/login'))
   .get('/signup', (req, res) => res.render('pages/signup'))
+  .get('/feedback', (req, res) => res.render('pages/feedback'))
 
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
