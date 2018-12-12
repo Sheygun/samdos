@@ -1,14 +1,3 @@
-// // SideNav Button Initialization
-// $(".button-collapse").sideNav();
-// // SideNav Scrollbar Initialization
-// var sideNavScrollbar = document.querySelector('.custom-scrollbar');
-// Ps.initialize(sideNavScrollbar);
-
-// SideNav Button Initialization
-$(".button-collapse").sideNav();
-// SideNav Scrollbar Initialization
-var sideNavScrollbar = document.querySelector('.custom-scrollbar');
-Ps.initialize(sideNavScrollbar);
 
 
 $(document).ready(function(){
@@ -16,3 +5,13 @@ $(document).ready(function(){
     
     $("[data-toggle=tooltip]").tooltip();
 });
+
+
+function myfunction(){
+    let lasu = document.getElementById('agreed');
+    if (document.getElementById('agreed').checked){
+        let dismiss = document.getElementById('visible').style.visibility = "visible";
+    }else{
+        let dismiss = document.getElementById('visible').style.visibility="hidden";
+    }
+}

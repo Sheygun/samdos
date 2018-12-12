@@ -20,5 +20,8 @@ express()
   .get('/login', (req, res) => res.render('pages/login'))
   .get('/signup', (req, res) => res.render('pages/signup'))
   .get('/feedback', (req, res) => res.render('pages/feedback'))
+  .get('/blog', (req, res) => res.render('pages/blog'))
+  .get('/tutorial', (req, res) => res.render('pages/tutorial'))
+
 
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
