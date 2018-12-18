@@ -62,8 +62,8 @@ header,
 	text-shadow: 0px 0px 2px white;
 }.move-up{
 	/* transform: translate(10px,-20px); */
-}.title-header{
-	
+}.title-headers{
+    font-size: 30px;
 	color: #fff;
 }
 
