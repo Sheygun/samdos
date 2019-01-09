@@ -1463,25 +1463,6 @@ a.link-style3 {
     float: left;
     font: normal 12px "Open sans", Helvetica, Arial, sans-serif;
 }
-#site-searchform #searchsubmit{
-    float: left;
-    width:18%;
-    height:41px;
-    cursor:pointer;
-    text-indent:-5555em;
-    line-height:100;
-    overflow:hidden;
-    background: #727CB6 url(../images/search-icon.png) no-repeat center 14px;
-    border:0;
-    transition:all 0.4s ease-in-out;
-    -webkit-transition:all 0.4s ease-in-out;
-       -moz-transition:all 0.4s ease-in-out;
-        -ms-transition:all 0.4s ease-in-out;
-         -o-transition:all 0.4s ease-in-out;
-}
-#site-searchform #searchsubmit:hover{
-    background: #383634 url(../images/search-icon.png) no-repeat center 14px;
-}
 .gray_border {
     width: 100%;
     height: 10px;
@@ -1811,25 +1792,6 @@ ul.tags {
     color: #999;
     float: left;
     font: normal 12px "Open sans", Helvetica, Arial, sans-serif;
-}
-#site-searchform #searchsubmit{
-    float: left;
-    width:18%;
-    height:41px;
-    cursor:pointer;
-    text-indent:-5555em;
-    line-height:100;
-    overflow:hidden;
-    background: #727CB6 url(../images/search-icon.png) no-repeat center 14px;
-    border:0;
-    transition:all 0.4s ease-in-out;
-    -webkit-transition:all 0.4s ease-in-out;
-       -moz-transition:all 0.4s ease-in-out;
-        -ms-transition:all 0.4s ease-in-out;
-         -o-transition:all 0.4s ease-in-out;
-}
-#site-searchform #searchsubmit:hover{
-    background: #383634 url(../images/search-icon.png) no-repeat center 14px;
 }
 .gray_border {
     width: 100%;
@@ -2710,10 +2672,8 @@ ul{
     width:18%;
     height:41px;
     cursor:pointer;
-    text-indent:-5555em;
-    line-height:100;
     overflow:hidden;
-    background: #727CB6 url(../images/search-icon.png) no-repeat center 14px;
+    background: blue;
     border:0;
     transition:all 0.4s ease-in-out;
     -webkit-transition:all 0.4s ease-in-out;
@@ -2722,7 +2682,7 @@ ul{
          -o-transition:all 0.4s ease-in-out;
 }
 #site-searchform #searchsubmit:hover{
-    background: #383634 url(../images/search-icon.png) no-repeat center 14px;
+    background: #383634;
 }
 .gray_border {
     width: 100%;
